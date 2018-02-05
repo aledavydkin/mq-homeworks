@@ -1,11 +1,11 @@
 .card {
-  width: 48%;
+  width: 46.6%;
   margin-bottom: 3.4%;
 }
 
 .card:nth-child(odd) {
   margin-right: 1.7%;
-}
+} 
 
 .card:nth-child(even) {
   margin-left: 1.7%;
