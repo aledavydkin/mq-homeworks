@@ -5,5 +5,7 @@
 
 .trophy {
   width: 32%;
-  margin: 0 34% 30px;
+  margin-left: 34%;
+  margin-right: 34%;
+  margin-bottom: 30px;
 }
