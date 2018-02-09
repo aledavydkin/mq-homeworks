@@ -1,9 +1,9 @@
 .container {
-	padding: 15px 10px;
-	min-width: 768px;
-	max-width: 1300px;
-	width: 100%;
-	box-sizing: border-box;
+    padding: 15px 10px;
+    min-width: 768px;
+    max-width: 1300px;
+    width: calc(987px - 2%);
+    box-sizing: border-box;
 }
 
 .card {
