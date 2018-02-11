@@ -1,12 +1,9 @@
 
 .product__footer {
     justify-content: space-between;
+    align-items: end;
 }
 
-.product {
-    margin-top: 0;
-    margin-bottom: 2%;
-}
 
 @media screen and (min-width: 769px) {
     .products {
@@ -14,9 +11,6 @@
     }
     
     .product {
-        display: flex;
-        justify-content: space-between;
-        flex-direction: column;
         width: 32%;
     }
     
