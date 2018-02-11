@@ -1,0 +1,28 @@
+
+.product__footer {
+    justify-content: space-between;
+}
+
+.product {
+    margin-top: 0;
+    margin-bottom: 2%;
+}
+
+@media screen and (min-width: 769px) {
+    .products {
+        display: flex;
+    }
+    
+    .product {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 32%;
+    }
+    
+    .product:nth-child(3n-1)  {
+      margin-left: 2%;
+      margin-right: 2%; 
+    }
+    
+  }
