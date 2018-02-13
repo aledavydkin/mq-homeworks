@@ -1,13 +1,14 @@
 
 .product__footer {
     justify-content: space-between;
-    align-items: end;
+    align-items: flex-end;
 }
 
 
 @media screen and (min-width: 769px) {
     .products {
         display: flex;
+        align-items: flex-start;
     }
     
     .product {
