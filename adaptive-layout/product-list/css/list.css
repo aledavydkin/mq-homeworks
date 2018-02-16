@@ -9,3 +9,52 @@
   padding: 1.5em;
   font-size: 16px;  
 }
+
+@media (max-width: 376px) {
+
+  .product {
+    width: 100%; 
+  }
+  
+}
+
+@media (min-width: 376px) and (max-width: 768px) { 
+  
+  .product {
+    width: 50%;
+  }
+  
+}
+
+@media (min-width: 768px) and (max-width: 959px) { 
+  
+  .product {
+    width: 33.3%;
+  }
+
+}
+
+
+@media (min-width: 959px) and (max-width: 1300px) { 
+  
+  .product {
+    width: 25%; 
+  }
+}
+
+
+@media (min-width: 1301px) {
+
+  .product {
+    width: 20%; 
+  }
+  
+}
+
+
+
+
+
+
+
+
