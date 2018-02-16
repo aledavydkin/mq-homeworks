@@ -13,6 +13,7 @@
 }
 
 @media (min-width: 640px) and (max-width: 1300px) { 
+  
   .header {
     font-size: 12px; 
     background-image: url("../img/netology_1200.jpg");
