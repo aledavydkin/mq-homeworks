@@ -8,10 +8,17 @@
 }
 
 .popup__close:before, .popup__close:after {
-  width: 28px;
-  height: 4px;
+  width: 1.2em;
+  height: 0.2em;
 }
 
+@media screen and (min-width: 481px) {
+
+  .popup__close {
+    font-size: 20px;
+  }
+
+}
 
 @media screen and (max-width: 480px) {
 
