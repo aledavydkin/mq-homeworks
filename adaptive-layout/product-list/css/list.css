@@ -10,7 +10,7 @@
   font-size: 16px;  
 }
 
-@media (max-width: 376px) {
+@media (max-width: 375px) {
 
   .product {
     width: 100%; 
@@ -26,7 +26,7 @@
   
 }
 
-@media (min-width: 768px) and (max-width: 959px) { 
+@media (min-width: 769px) and (max-width: 959px) { 
   
   .product {
     width: 33.3%;
@@ -35,7 +35,7 @@
 }
 
 
-@media (min-width: 959px) and (max-width: 1300px) { 
+@media (min-width: 960px) and (max-width: 1300px) { 
   
   .product {
     width: 25%; 
