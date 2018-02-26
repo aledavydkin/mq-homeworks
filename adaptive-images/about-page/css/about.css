@@ -1,0 +1,33 @@
+@media (min-width: 961px) {
+    .page {
+        display: flex;
+    }
+    
+    .aside {
+        order: 1;
+    }
+    
+    .content {
+        order: 2;
+    }
+
+    .aside {
+        flex-basis: 320px;
+        flex-shrink: 0;
+        margin-right: 40px;
+    }
+
+    .content {
+        flex-grow: 1;
+    }
+
+  }
+
+
+  @media (max-width: 960px) {
+  
+    .aside__menu {
+        display: none;
+    }
+
+  }
